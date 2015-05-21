@@ -95,6 +95,7 @@
                         <browser>chrome</browser>
                         <lang>en</lang>
                         <log4j.configurationFile>log4j.xml</log4j.configurationFile>
+                        <file.encoding>${project.build.sourceEncoding}</file.encoding>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
